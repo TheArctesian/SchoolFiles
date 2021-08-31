@@ -40,7 +40,7 @@ public class countUnplugged
 				}
 			}
 			System.out.println("most common word is: " +repeated);
-			System.out.println("it came up "+count);
+			System.out.println("it came up "+count + "times");
 		}
 		catch(IOException e) {
 			e.printStackTrace();
@@ -52,7 +52,7 @@ public class countUnplugged
 			}
 			catch (IOException f) {
 				f.printStackTrace();
-				System.out.println("lmao");
+				System.out.println("cant even close the reader u are a pesent");
 			}
 		}
 	}
