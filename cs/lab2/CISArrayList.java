@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 
 public class CISArrayList<SomeType> {
 
@@ -13,7 +14,6 @@ public class CISArrayList<SomeType> {
                 TODO 0: This constructor will initialize allTheObjects
                 to an array of size 10.
             */
-
         allTheObjects = (SomeType[])new Object[INITIAL_CAPACITY]; //Array of size 10
         totalObjects = 0;
 
@@ -31,21 +31,26 @@ public class CISArrayList<SomeType> {
                 TODO 2: Create a private method called grow, which doubles
                 the internal array's capacity.
             */
-    	SomeType[] newObjects;
-    	int newSize = GERTH*2; 
-    	newObjects = (SomeType[])new Object[newSize];
+    	
+    	int newSize = INITIAL_CAPACITY*2; 
+    	SomeType[] newObjects = (SomeType[])new Object[newSize];
     	return newObjects; 
     	
 
     }
 
-    public void add(SomeType objectToStore)
+    public void add(SomeType objectToStore, int GERTH)
     {
             /*
                 TODO 3: Method add, which will takes in a Object and add
                 to the next available index in the array. It returns nothing.
                 If array is full, grow it.
             */
+    	if (GERTH == allTheObjects.length) {
+    	}
+    		grow(allTheObjects);
+    		
+    	}
     	
     }
 

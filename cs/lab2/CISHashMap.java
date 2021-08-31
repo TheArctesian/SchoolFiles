@@ -12,11 +12,9 @@ public class CISHashMap<SomeTypeKey, SomeTypeVal> {
 
     public int length()
     {
-        /*
-            TODO 6: Method length, which will return the amount of
-            objects that are actually IN the array.
-        */
-        return 0;
+    	
+    	
+        return length;
     }
 
     private void grow()
