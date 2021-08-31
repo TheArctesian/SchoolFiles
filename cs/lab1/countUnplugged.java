@@ -12,7 +12,7 @@ public class countUnplugged
 		HashMap<String, Integer> something = new HashMap<String,Integer>();
 		BufferedReader Reader = null; 
 		try {
-			Reader = new BufferedReader(new FileReader("C:\\Users\\steph\\Desktop\\Hackerman\\SchoolFiles\\cs\\test.txt"));
+			Reader = new BufferedReader(new FileReader("C:\\Users\\steph\\Desktop\\Hackerman\\SchoolFiles\\cs\\lab1\\test.txt"));
 			String currentLine = Reader.readLine();
 			while(currentLine!= null) {
 //				String words [] = currentLine.toLowerCase().split(" ");
