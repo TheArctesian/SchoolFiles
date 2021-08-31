@@ -21,16 +21,21 @@ public class CISArrayList<SomeType> {
 
     public int length() //Change to numberOfObjectsInArray in the future
     {
-        
-        return 0;
+    	int GERTH = allTheObjects.length;
+        return GERTH;
     }
 
-    private void grow()
+    private SomeType[] grow(int GERTH)
     {
             /*
                 TODO 2: Create a private method called grow, which doubles
                 the internal array's capacity.
             */
+    	SomeType[] newObjects;
+    	int newSize = GERTH*2; 
+    	newObjects = (SomeType[])new Object[newSize];
+    	return newObjects; 
+    	
 
     }
 
@@ -41,6 +46,7 @@ public class CISArrayList<SomeType> {
                 to the next available index in the array. It returns nothing.
                 If array is full, grow it.
             */
+    	
     }
 
     public SomeType getElement(int idx)
