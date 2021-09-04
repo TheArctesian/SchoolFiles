@@ -23,19 +23,50 @@ public class CISAL<SomeType> {
         return length;
     }
 
-    public SomeType[] add()
+    public SomeType add(int Index, SomeType Element)
+    {
+        // SomeType[] newArray = new SomeType [length()+1];
+
+        SomeType[] addedArray = (SomeType[])new Object[length()+1]; //Array of size 10
+        for (int i = 0; i < length()+1; i++)
+        {
+            if(!(i>allTheObjects.length))
+            {
+                addedArray[i] = allTheObjects[i];
+            }
+            else
+            {
+                addedArray[i] = Element;
+            }
+        return (SomeType) addedArray;
+    }
+
+
+    public SomeType rm(int Index, SomeType Element)
+    {
+
+        SomeType[] rmArray = (SomeType[])new Object[length()-1]; //Array of size 10
+        for (int i = 0; i < length()-1; i++)
+        {
+            if(!(i>allTheObjects.length))
+            {
+                rmArray[i] = allTheObjects[i];
+            }
+        return (SomeType) rmArray;
+    }
+
+    public SomeType clear()
     {
         return null;
     }
 
-
-    public SomeType[] rm()
+    public SomeType GetElement()
     {
-
         return null;
+
     }
 
-    public SomeType[] clear()
+    public SomeType SetElement()
     {
         return null;
     }
