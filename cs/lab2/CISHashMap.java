@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 public class CISHashMap<SomeTypeKey, SomeTypeVal> {
     private SomeTypeKey [] key;
     private SomeTypeVal [] value;
@@ -17,7 +16,6 @@ public class CISHashMap<SomeTypeKey, SomeTypeVal> {
         int length = key.length;
         return length;
     }
-
     
     public void add(SomeTypeKey key, SomeTypeVal value)
     {
@@ -31,7 +29,6 @@ public class CISHashMap<SomeTypeKey, SomeTypeVal> {
             else
             {
                 addedKeyArray[i] = key;
-;
             }
         }
         this.key = addedKeyArray;
@@ -46,7 +43,6 @@ public class CISHashMap<SomeTypeKey, SomeTypeVal> {
             else
             {
                 addedValArray[i] = value;
-;
             }
         }
         this.value = addedValArray;
