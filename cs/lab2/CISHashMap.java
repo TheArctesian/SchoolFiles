@@ -1,48 +1,69 @@
-
+import java.lang.reflect.Array;
 public class CISHashMap<SomeTypeKey, SomeTypeVal> {
-    private SomeTypeVal [] allTheObjects;
+    private SomeTypeKey [] key;
+    private SomeTypeVal [] value;
     private static final int INITIAL_CAPACITY = 10;
     private int totalObjects;
 
     public CISHashMap()
     {
-        allTheObjects = (SomeTypeVal[]) new Object [INITIAL_CAPACITY];
+        key = (SomeTypeKey[]) new Object [INITIAL_CAPACITY];
+        value = (SomeTypeVal[]) new Object [INITIAL_CAPACITY];
         totalObjects = 0;
     }
 
-    public int length()
+    public int length() //Change to numberOfObjectsInArray in the future
     {
-    	
-    	
+        int length = key.length;
         return length;
     }
 
-    private void grow()
-    {
-       /*
-            TODO 7: Create a private method called grow, which doubles the
-            internal array's capacity.
-       */
-
-    }
-
+    
     public void add(SomeTypeKey key, SomeTypeVal value)
     {
-        /*
-            TODO 8: Find the Value by using the Key. Return the value. Grow
-            the array if full.
-        */
+        SomeTypeKey[] addedKeyArray = (SomeTypeKey[])new Object[length()+1]; //Array of size 10
+        for (int i = 0; i < length()+1; i++)
+        {
+            if(!(i>this.key.length))
+            {
+                addedKeyArray[i] = this.key[i];
+            }
+            else
+            {
+                addedKeyArray[i] = key;
+;
+            }
+        }
+        this.key = addedKeyArray;
 
+        SomeTypeVal[] addedValArray = (SomeTypeVal[])new Object[length()+1]; //Array of size 10
+        for (int i = 0; i < length()+1; i++)
+        {
+            if(!(i>this.value.length))
+            {
+                addedValArray[i] = this.value[i];
+            }
+            else
+            {
+                addedValArray[i] = value;
+;
+            }
+        }
+        this.value = addedValArray;
     }
 
-    public SomeTypeVal getElement(SomeTypeKey key)
-    {
-        /*
-            TODO 9: Method getElement, which takes in an object as the key,
-            find the corresponding hash for that key. Return the value for
-            the given key. Use .hashCode() to find the Key's hashcode. This
-            will sometimes return a negative hash, get the absolute value of it.
-        */
+    public SomeTypeVal getElement(SomeTypeKey key) {       
+        int keyCode = Math.abs(key.hashCode()); //could be neg
+        int index = -1;
+        for (int i = 0; i < this.key.length; i++){
+            if (Math.abs(this.key[i].hashCode()) == keyCode) {
+                index = i;
+                break;
+            }
+        }
+        if (index != -1){
+            return this.value[index];
+        }
         return null;
     }
 }

@@ -23,7 +23,7 @@ public class CISAL<SomeType> {
         return length;
     }
 
-    public SomeType add(int Index, SomeType Element)
+    public SomeType[] add(int Index, SomeType Element)
     {
         // SomeType[] newArray = new SomeType [length()+1];
 
@@ -38,7 +38,8 @@ public class CISAL<SomeType> {
             {
                 addedArray[i] = Element;
             }
-        return (SomeType) addedArray;
+        }
+        return addedArray;
     }
 
 
