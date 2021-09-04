@@ -1,7 +1,7 @@
 public class CISHashMap<SomeTypeKey, SomeTypeVal> {
     private SomeTypeKey [] key;
     private SomeTypeVal [] value;
-    private static final int INITIAL_CAPACITY = 10;
+    private static final int INITIAL_CAPACITY = 1;
     private int totalObjects;
 
     public CISHashMap()

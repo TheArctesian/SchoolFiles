@@ -3,7 +3,7 @@ import java.lang.reflect.Array;
 public class CISAL<SomeType> {
     
     private SomeType [] allTheObjects;
-    private static final int INITIAL_CAPACITY = 10;
+    private static final int INITIAL_CAPACITY = 1;
     private int totalObjects;
     private int currIndex;
 

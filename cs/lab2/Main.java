@@ -6,9 +6,14 @@ class Main {
 
     //Add any methods you need to CISHashMap and CISArrayList
 
-    CISArrayList l = new CISArrayList<>();
+    CISAL l = new CISAL<>();
+    CISHashMap<Integer, Integer> n = new CISHashMap<Integer, Integer>();
+    // l.add(1, 10);
+    // n.add(1, 2);
 
     System.out.println(l.length());
+    System.out.println(n.length());
+    
   }
   
 }
