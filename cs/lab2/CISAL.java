@@ -42,32 +42,54 @@ public class CISAL<SomeType> {
     }
 
 
-    public SomeType rm(int Index, SomeType Element)
-    {
-
-        SomeType[] rmArray = (SomeType[])new Object[length()-1]; //Array of size 10
-        for (int i = 0; i < length()-1; i++)
-        {
-            if(!(i>allTheObjects.length))
-            {
-                rmArray[i] = allTheObjects[i];
+    public void remove(int index) {
+        int newLength = allTheObjects.length - 1;
+        SomeType[] newObjects = (SomeType[]) new Object[newLength];
+        for (int i = 0; i < newLength; i++) {
+            if (i >= index) {
+                newObjects[i] = allTheObjects[i + 1];
+            } else {
+                newObjects[i] = allTheObjects[i];
             }
-        return (SomeType) rmArray;
+        }
+        allTheObjects = newObjects;
     }
 
-    public SomeType clear()
-    {
-        return null;
+    public void remove(SomeType obj) {
+        int index = -1;
+        for (int i = 0; i < allTheObjects.length; i++) {
+            if (allTheObjects[i] == obj) {
+                index = i;
+                break;
+            }
+        }
+        if (index == -1) {
+
+            System.out.println("Fuking idiot, can't element inside the arrayList.");
+            return;
+        }
+        int newLength = allTheObjects.length - 1;
+        SomeType[] newObjects = (SomeType[]) new Object[newLength];
+
+        for (int i = 0; i < newLength; i++) {
+            if (i >= index) {
+                newObjects[i] = allTheObjects[i + 1];
+            } else {
+                newObjects[i] = allTheObjects[i];
+            }
+        }
+        
+        allTheObjects = newObjects;
     }
 
-    public SomeType GetElement()
+    public SomeType GetElement(int index)
     {
-        return null;
+        return allTheObjects[index];
 
     }
 
-    public SomeType SetElement()
+    public void SetElement(int index, SomeType value)
     {
-        return null;
+        allTheObjects[index] = value;
     }
 }
