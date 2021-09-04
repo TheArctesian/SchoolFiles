@@ -45,13 +45,7 @@ public class CISArrayList<SomeType> {
                 TODO 3: Method add, which will takes in a Object and add
                 to the next available index in the array. It returns nothing.
                 If array is full, grow it.
-            */
-    	if (GERTH == allTheObjects.length) {
-    	}
-    		grow(allTheObjects);
-    		
-    	}
-    	
+    */	
     }
 
     public SomeType getElement(int idx)
