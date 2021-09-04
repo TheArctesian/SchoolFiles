@@ -92,4 +92,9 @@ public class CISAL<SomeType> {
     {
         allTheObjects[index] = value;
     }
+
+    public void clear()
+    {
+        allTheObjects = (SomeType[])new Object[INITIAL_CAPACITY]; //Array of size 10
+    }
 }
