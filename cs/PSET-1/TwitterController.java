@@ -31,10 +31,10 @@ public class TwitterController
 
         ConfigurationBuilder cb =  new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("FgroKVb1akuXjPhmsOxaTQOh4")
-                .setOAuthConsumerSecret("er9QZrFqT3IpF6lXub24exkxACnBR6jH3luSeiMKQwBfa8LLIX")
-                .setOAuthAccessToken("1042321525901152256-US4GQEy8aGoSN62WJj2d5Et5TJ4EJP")
-                .setOAuthAccessTokenSecret("4VOtBQ1pC5cNEUm1rmZYXaUpAE4lXIsTeB9XnbqJ5TMuD");
+                .setOAuthConsumerKey("L2BKElNco18WhHak3NkCM05t4")
+                .setOAuthConsumerSecret("DXL2KqEegX03uJbQNPxecGFqPiKUhw5vCpnzukiL3OvxFaJIiF")
+                .setOAuthAccessToken("1042321525901152256-Po8en0crJfjW74hUWUgKt34n5AAAlP")
+                .setOAuthAccessTokenSecret("74bEpnfXM8O3Or3kajQERMeTjJVoYJFGXamUa5qDopE7y");;
         TwitterFactory tf = new TwitterFactory(cb.build());
         twitter = tf.getInstance();
         statuses = new ArrayList<Status>();

@@ -24,7 +24,7 @@ public class countUnplugged
 					}
 					else {
 						something.put(word, 1);
-					}
+					}sd
 				}
 //				System.out.println(words.toString());
 				currentLine=Reader.readLine();
