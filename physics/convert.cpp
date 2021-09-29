@@ -1,7 +1,3 @@
-/**
- * Author = @theArctesian (gitHub) or Stephen Okita
- * Note, this shit does not work at all 
- * */
 #include <iostream>
 #include <math.h>
 #include <cmath>
@@ -18,6 +14,7 @@ float toM(string units, int inputLength){
     }
     else{
         cout << "Error in input" << endl;
+	return -1;
     }
 
     return toMeters; 
@@ -46,8 +43,8 @@ int main(){
     int convertedToMeters; 
     convertedToMeters = toM(units, inputLength);
 
-    // convertVal = converted(convertedToMeters, expontent);
-    // string convertValSci = convertedToMeters + "x 10^" + expontent; 
+    convertVal = converted(convertedToMeters, expontent);
+    string convertValSci = convertedToMeters + "x 10^" + expontent; 
 
     cout << "Your length is ";
     cout << convertVal << endl;
