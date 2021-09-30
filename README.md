@@ -5,17 +5,17 @@
 All of my school projects most of them just for QOL
 
 ## Notes
-   Cs containts:
+   # Cs containts:
         - First 2 Labs 
         - Pset-1 but only the tests if you want my full code for it its in [this repo](https://github.com/TheArctesian/attempt2e)
     
-   Math containts: 
+   # Math containts: 
         - Nothing lmao
 
-   Music containts:
+   # Music containts:
         - Nothing atm but do want to try and make a script to translate pdf scores to muse score
     
-   Physics Containts
+   # Physics Containts
        - A stand dev calc
        - 2 Sci noation converters 
         - 1 python
