@@ -1,0 +1,21 @@
+8 days 
+3 260 
+3 120 
+1 60 
+
+
+4 sl 
+5 hl 
+2 tok 
+
+3 break period 
+6 blocks 
+time table 2 = blank 
+time table 3 = advis 
+
+8 arrays 
+
+timetable - fit 
+
+not 3 classes in a row 
+
