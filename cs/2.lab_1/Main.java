@@ -1,38 +1,39 @@
 import java.util.*;
 
 class Main {
+    static Scanner peepee = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.println("Input your name: ");
-        Scanner sc = new Scanner(System.in);
-        String student = sc.next();
-        Cappuccino capp1 = new Cappuccino();
+        String student = peepee.next();
+
         Student student1 = new Student(student);
-        System.out.println(student1.name + " has " + student1.monies + "$");
-        sc.close();
-        Scanner peepee = new Scanner(System.in);
         VendingMachine vend = new VendingMachine();
-        vendStart(vend, peepee);
+
+        System.out.println(student1.name + " has $" + student1.monies );
+        vend.vendInit();
+        vendStart(vend);
+
     }
 
 
-    private static void vendStart(VendingMachine vend, Scanner peepee) {
+    private static void vendStart(VendingMachine vend) {
         System.out.println("""
-                Actions
-                 1. Look at Machines stock
+                Actions: to pick one type the word before the descr iption 
+                 stock - Look at Machines stock
                  2. Look at how much money you have
                  3. Buy a coffee
                  4. End
                  """);
         String action = peepee.next();
         if (action.equals("1")) {
-            vendStock(vend, peepee);
+            vendStock(vend);
         }
 
     }
 
-    private static void vendStock(VendingMachine vend, Scanner peepee) {
+    private static void vendStock(VendingMachine vend) {
         System.out.println(vend.getVendStock());
-        vendStart(vend, peepee);
+        vendStart(vend);
     }
 }
 

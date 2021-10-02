@@ -5,6 +5,9 @@ public class VendingMachine {
     ArrayList<Cappuccino> CapStock;
     ArrayList<Latte> LatStock;
 
+    public void vendInit(){
+        
+    }
     public String getVendStock() {
         int EspressoStock = EspStock.size();
         int CappuccinoStock = CapStock.size();
