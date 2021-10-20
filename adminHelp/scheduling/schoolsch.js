@@ -10,11 +10,10 @@
         // Initialzing Google Calendar API
         // Client ID and API key from the Developer Console
         var CLIENT_ID = '1097932129420-mkla5e9ibr6qgok18dvn3ac3f2a4f9in.apps.googleusercontent.com';
-        var API_KEY = 'AIzaSyBqafLKv1Y-SktNmuvb651BvR48UAXd96A';
+        var API_KEY = 'AIzaSyBqafLKv1Y-SktNmuvb651BvR48UAXd96A';    
 
         // Array of API discovery doc URLs for APIs
         var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
-
         var SCOPES = "https://www.googleapis.com/auth/calendar.events";
 
         var authorizeButton = document.getElementById('authorize_button');
