@@ -1,0 +1,17 @@
+{
+    "Name" : "Stephen Daniel Okita",
+    "Age" : "sqrt(225)",
+    "Location" : "Hong Kong", 
+    "Skills" : 
+        [
+            "Full-Stack web development",
+            "3D Character Modeling and Animation",
+            "Game Development",
+            "Android Developer",
+            "Crypto Developer",
+            "Music",
+            "Visual Effects",
+            "PC building",
+            "Software Engendering "
+        ]
+}
