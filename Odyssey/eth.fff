@@ -1,0 +1,16 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includesvg[inkscapelatex=false, width=0.3\textwidth]{figures/vulture.svg}
+    \caption{An SVG figure of a vulture}
+    \label{fig:vulture}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htp]
+    \centering
+    \includegraphics[width=10cm]{figures/lizard.jpg}
+    \caption{A JPG image of a lizard}
+    \label{fig:lizard}
+\end{figure*}
