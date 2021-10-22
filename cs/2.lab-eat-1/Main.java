@@ -5,26 +5,24 @@ class Main {
 
         Scanner sc = new Scanner(System.in);
         String input = "";
-        ArrayList<Lunch> lunch = new ArrayList<>();
-        ArrayList<Breakfast> brek = new ArrayList<>();
-        ArrayList<Snack> snak = new ArrayList<>();
-        ArrayList<Drink> drink = new ArrayList<>();
+        System.out.println(CLog.CYAN + "What is you name" + CLog.YELLOW);
+        String Name = sc.next();
+        Student s = new Student(Name);
+        HashMap<Student, String> order = new HashMap<Student, String>();
 
         while (!input.toLowerCase().equals("exit")) {
             input = sc.next();
 
             if (input.equals("brekkie")) {
-                //do stuff for lunches
-                Breakfast l = new Breakfast(1000);
-                brek.add(l);
-                System.out.println("Given you brekkie a name");
+                Breakfast BrkTemp = new Breakfast(1000);
+                System.out.println(CLog.CYAN + "Given you brekkie a name" + CLog.YELLOW);
                 String name = sc.next();
-                l.setName(name);
-                System.out.println("you have " + brek.size() + " brekkies");
+                BrkTemp.setName(name);
+                s.addBreakfast(BrkTemp);
             }
 
             if (input.equals("show-brek")) {
-                System.out.println("you have breakfasts with the name of");
+                System.out.println(CLog.GREEN + "you have breakfasts with the name of" + CLog.YELLOW);
                 for (int i = 0; i < brek.size(); i++) {
                     Breakfast Temp = brek.get(i);
                     System.out.println(Temp.getName());
@@ -33,12 +31,12 @@ class Main {
 
             if (input.equals("lunch")) {
                 //do stuff for lunches
-                Lunch l = new Lunch(1000);
-                lunch.add(l);
+                Lunch LunchTemp = new Lunch(1000);
                 System.out.println("Given you lunch a name");
                 String name = sc.next();
-                l.setName(name);
-                System.out.println("you have " + lunch.size() + " lunch");
+                LunchTemp.setName(name);
+                s.addLunch(LunchTemp);
+
             }
 
             if (input.equals("show-lunch")) {
@@ -51,7 +49,7 @@ class Main {
             if (input.equals("snak")) {
                 //do stuff for lunches
                 Snack l = new Snack(1000);
-                snak.add(l);
+                add(l);
                 System.out.println("Given you snack a name");
                 String name = sc.next();
                 l.setName(name);
@@ -80,6 +78,9 @@ class Main {
                     Drink Temp = drink.get(i);
                     System.out.println(Temp.getName());
                 }
+            }
+            if (input.equals("show-imposter")){
+                System.out.println("you can never seen the immposter");
             }
         }
 
@@ -138,5 +139,9 @@ class Main {
                 0000000000000000000000000000000000000000000000000000000000000000000000000000000000
                                 
                 """);
+    }
+
+    public String AddOrders(String Type, String Name){
+        order.put(Type, Name);
     }
 }
