@@ -1,6 +1,10 @@
 # School Scripts
 ![GitHub language count](https://img.shields.io/github/languages/count/TheArctesian/SchoolFiles)
 ![GitHub top language](https://img.shields.io/github/languages/top/thearctesian/SchoolFiles)
+![GitHub code size](https://img.shields.io/github/languages/code-size/TheArctesian/SchoolFiles)
+![GitHub Repo stars](https://img.shields.io/github/stars/theArctesian/SchoolFiles?style=social)
+
+
 
 All of my school projects most of them just for QOL
 
