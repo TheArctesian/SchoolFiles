@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Student {
     String name;
@@ -6,11 +7,10 @@ public class Student {
     ArrayList<Breakfast> Breakfast = new ArrayList<>();
     ArrayList<Snack> Snack = new ArrayList<>();
     ArrayList<Drink> drinks = new ArrayList<>();
-
+    HashMap<String, String> studentOrders = new HashMap<String, String>();
     public void setName(String name) {
         this.name = name;
     }
-
     public Student(String input) {
         name = input;
     }
@@ -19,21 +19,17 @@ public class Student {
         return name;
     }
 
-    public ArrayList<Breakfast> getBreakfast() {
-        return Breakfast;
+    public String getBreakfast() {
+        return Breakfast.toString();
     }
 
-    public ArrayList<Drink> getDrinks() {
-        return drinks;
+    public String getDrinks() {return drinks.toString();}
+
+    public String getLunch() {
+        return Lunch.toString();
     }
 
-    public ArrayList<Lunch> getLunch() {
-        return Lunch;
-    }
-
-    public ArrayList<Snack> getSnack() {
-        return Snack;
-    }
+    public String getSnack() {return Snack.toString();}
 
     public void addLunch(Lunch LunchTemp) {
         Lunch.add(LunchTemp);
@@ -46,10 +42,15 @@ public class Student {
     public void addSnack(Snack SnackTemp) {
         Snack.add(SnackTemp);
     }
-
     public void addDrinks(Drink DrinksTemp) {
         drinks.add(DrinksTemp);
     }
 
+    public void setStudentOrders(String type,String name) {
+        studentOrders.put(type, name);
+    }
 
+    public HashMap<String, String> getSorders() {
+        return studentOrders;
+    }
 }

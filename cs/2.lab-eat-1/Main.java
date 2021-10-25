@@ -5,11 +5,12 @@ class Main {
 
         Scanner sc = new Scanner(System.in);
         String input = "";
-        System.out.println(CLog.CYAN + "What is you name" + CLog.YELLOW);
+        System.out.println(CLog.CYAN + "What is you name");
         String Name = sc.next();
         Student s = new Student(Name);
-        HashMap<Student, String> order = new HashMap<Student, String>();
-
+        HashMap<Student, String> orders = new HashMap<Student, String>();
+        System.out.println("you may start ordering now" + CLog.YELLOW);
+        System.out.println(CLog.BLUE + "if you are cunfuzzled type "+ CLog.RED + "'help'" + CLog.YELLOW);
         while (!input.toLowerCase().equals("exit")) {
             input = sc.next();
 
@@ -19,73 +20,86 @@ class Main {
                 String name = sc.next();
                 BrkTemp.setName(name);
                 s.addBreakfast(BrkTemp);
+                orders.put(s, BrkTemp.getName());
+                s.setStudentOrders("Breakfast", BrkTemp.getName());
+                System.out.println(CLog.GREEN + "Your order has been put through!" + CLog.YELLOW);
+                System.out.println("What else do you want fatso");
             }
 
             if (input.equals("show-brek")) {
                 System.out.println(CLog.GREEN + "you have breakfasts with the name of" + CLog.YELLOW);
-                for (int i = 0; i < brek.size(); i++) {
-                    Breakfast Temp = brek.get(i);
-                    System.out.println(Temp.getName());
-                }
+                System.out.println(CLog.BLUE + s.getBreakfast() + CLog.YELLOW);
+                System.out.println("What else do you want fatso");
             }
 
             if (input.equals("lunch")) {
-                //do stuff for lunches
-                Lunch LunchTemp = new Lunch(1000);
-                System.out.println("Given you lunch a name");
+                Lunch Temp = new Lunch(1000);
+                System.out.println(CLog.CYAN + "Given you LUNCH a name" + CLog.YELLOW);
                 String name = sc.next();
-                LunchTemp.setName(name);
-                s.addLunch(LunchTemp);
-
+                Temp.setName(name);
+                s.addLunch(Temp);
+                orders.put(s, Temp.getName());
+                s.setStudentOrders("Lunch", Temp.getName());
+                System.out.println(CLog.GREEN + "Your order has been put through!" + CLog.YELLOW);
+                System.out.println("What else do you want fatso");
             }
 
             if (input.equals("show-lunch")) {
-                System.out.println("you have lunchs with the name of");
-                for (int i = 0; i < lunch.size(); i++) {
-                    Lunch Temp = lunch.get(i);
-                    System.out.println(Temp.getName());
-                }
+                System.out.println(CLog.GREEN + "you have breakfasts with the name of" + CLog.YELLOW);
+                System.out.println(CLog.BLUE + s.getLunch() + CLog.YELLOW);
+                System.out.println("What else do you want fatso");
             }
             if (input.equals("snak")) {
-                //do stuff for lunches
-                Snack l = new Snack(1000);
-                add(l);
-                System.out.println("Given you snack a name");
+                Snack Temp = new Snack(1000);
+                System.out.println(CLog.CYAN + "Given you snak name" + CLog.YELLOW);
                 String name = sc.next();
-                l.setName(name);
-                System.out.println("you have " + snak.size() + " snaks");
+                Temp.setName(name);
+                s.addSnack(Temp);
+                orders.put(s, Temp.getName());
+                s.setStudentOrders("Snack", Temp.getName());
+                System.out.println(CLog.GREEN + "Your order has been put through!" + CLog.YELLOW);
+                System.out.println("What else do you want fatso");
             }
 
             if (input.equals("show-snak")) {
-                System.out.println("you have snaks with the name of");
-                for (int i = 0; i < snak.size(); i++) {
-                    Snack Temp = snak.get(i);
-                    System.out.println(Temp.getName());
-                }
+                System.out.println(CLog.GREEN + "you have snacks with the name of" + CLog.YELLOW);
+                System.out.println(CLog.BLUE + s.getSnack() + CLog.YELLOW);
+                System.out.println("What else do you want fatso");
             }
             if (input.equals("drink")) {
-                //do stuff for lunches
-                Drink l = new Drink(1000);
-                drink.add(l);
-                System.out.println("Given you drink a name");
+                Drink Temp = new Drink(1000);
+                System.out.println(CLog.CYAN + "Given you drink name" + CLog.YELLOW);
                 String name = sc.next();
-                l.setName(name);
-                System.out.println("you have " + drink.size() + " liquids");
+                Temp.setName(name);
+                s.addDrinks(Temp);
+                orders.put(s, Temp.getName());
+                s.setStudentOrders("Drink", Temp.getName());
+                System.out.println(CLog.GREEN + "Your order has been put through!" + CLog.YELLOW);
+                System.out.println("What else do you want fatso");
             }
             if (input.equals("show-drink")) {
-                System.out.println("you have snaks with the name of");
-                for (int i = 0; i < drink.size(); i++) {
-                    Drink Temp = drink.get(i);
-                    System.out.println(Temp.getName());
-                }
+                System.out.println(CLog.GREEN + "you have drinks with the name of" + CLog.YELLOW);
+                System.out.println(CLog.BLUE + s.getDrinks() + CLog.YELLOW);
             }
-            if (input.equals("show-imposter")){
-                System.out.println("you can never seen the immposter");
+            if (input.equals("show-imposter")) {
+                System.out.println("you can never see the immposter");
+                System.out.println(CLog.RED + "I do hear the if you type exit he might show up" + CLog.YELLOW);
+                System.out.println("go back to ordering food fatso");
+            }
+            if (input.equals("help")) {
+                System.out.println(CLog.BLUE + "In this advanced ordering system you may order:" + CLog.CYAN);
+                System.out.println("snak");
+                System.out.println("brekkie");
+                System.out.println("lunch");
+                System.out.println("drink");
+                System.out.println(CLog.BLUE + "you can also show all the orders as well for each by typing " + CLog.GREEN + "show-{order}");
+                System.out.println(CLog.YELLOW + "I head there is a secret command called 'show-imposter' but idk what that does");
             }
         }
 
-        System.out.println("The imposter will be seeing you now...");
-        System.out.println("""
+
+        System.out.println(CLog.RED + "The imposter will be seeing you now...");
+        System.out.println(CLog.RESET + """ 
                 0000000000000000000000000000000GG000000000000000GGG0000000000000000000000000000000
                 000000000000000000000000000GLi:,,:C000000000000L:,,:iLG000000000000000000000000000
                 000000000000000000000000GL;........G0000000000C........iLG000000000000000000000000
@@ -139,9 +153,5 @@ class Main {
                 0000000000000000000000000000000000000000000000000000000000000000000000000000000000
                                 
                 """);
-    }
-
-    public String AddOrders(String Type, String Name){
-        order.put(Type, Name);
     }
 }
