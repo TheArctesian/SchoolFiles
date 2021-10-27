@@ -1,0 +1,6 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {0.1}Introduction}{2}{}%
+\contentsline {section}{\numberline {0.2}Describing the experiment}{4}{}%
+\contentsline {section}{\numberline {0.3}Data Analysis}{7}{}%
+\contentsline {section}{\numberline {0.4}Conclusion and evaluation}{9}{}%
+\contentsline {section}{\numberline {0.5}Bibliography}{12}{}%
