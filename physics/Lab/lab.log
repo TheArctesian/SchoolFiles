@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.12)  26 OCT 2021 15:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.12)  26 OCT 2021 18:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -153,7 +153,7 @@ No file lab.toc.
 File: digram.png Graphic file (type png)
 <use digram.png>
 Package pdftex.def Info: digram.png  used on input line 25.
-(pdftex.def)             Requested size: 195.0pt x 92.04747pt.
+(pdftex.def)             Requested size: 292.5pt x 138.0738pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -162,107 +162,140 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 32.
 [2
 
- <./digram.png>]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 44--51
 
-c:/Users/steph/Desktop/Hackerman/SchoolFiles/physics/Lab/lab.tex:55: Package inputenc Error: Unicode character ∴ (U+2234)
+ []
+
+
+c:/Users/steph/Desktop/Hackerman/SchoolFiles/physics/Lab/lab.tex:52: Package inputenc Error: Unicode character ∴ (U+2234)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \[∴
+l.52 \[∴
            fF = m * \cos(\theta) x g x \mu\]
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-c:/Users/steph/Desktop/Hackerman/SchoolFiles/physics/Lab/lab.tex:63: Package inputenc Error: Unicode character ∴ (U+2234)
+c:/Users/steph/Desktop/Hackerman/SchoolFiles/physics/Lab/lab.tex:59: Package inputenc Error: Unicode character ∴ (U+2234)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \[∴
+l.59 \[∴
            a = g(sin(θ) - mu*cos(θ))\]
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-c:/Users/steph/Desktop/Hackerman/SchoolFiles/physics/Lab/lab.tex:63: Package inputenc Error: Unicode character θ (U+03B8)
+c:/Users/steph/Desktop/Hackerman/SchoolFiles/physics/Lab/lab.tex:59: Package inputenc Error: Unicode character θ (U+03B8)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \[∴ a = g(sin(θ
+l.59 \[∴ a = g(sin(θ
                        ) - mu*cos(θ))\]
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-c:/Users/steph/Desktop/Hackerman/SchoolFiles/physics/Lab/lab.tex:63: Package inputenc Error: Unicode character θ (U+03B8)
+c:/Users/steph/Desktop/Hackerman/SchoolFiles/physics/Lab/lab.tex:59: Package inputenc Error: Unicode character θ (U+03B8)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \[∴ a = g(sin(θ) - mu*cos(θ
+l.59 \[∴ a = g(sin(θ) - mu*cos(θ
                                     ))\]
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[3]
+[3 <./digram.png>]
 <setup.png, id=25, 455.301pt x 105.39375pt>
 File: setup.png Graphic file (type png)
 <use setup.png>
-Package pdftex.def Info: setup.png  used on input line 81.
+Package pdftex.def Info: setup.png  used on input line 74.
 (pdftex.def)             Requested size: 195.0pt x 45.1383pt.
  [4 <./setup.png>] [5]
 <working.png, id=34, 245.11575pt x 109.00725pt>
 File: working.png Graphic file (type png)
 <use working.png>
-Package pdftex.def Info: working.png  used on input line 109.
+Package pdftex.def Info: working.png  used on input line 102.
 (pdftex.def)             Requested size: 195.0pt x 86.72188pt.
- [6 <./working.png>]
+
+
+c:/Users/steph/Desktop/Hackerman/SchoolFiles/physics/Lab/lab.tex:104: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 \end{figure} \newline
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--112
+
+ []
+
+[6 <./working.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 131.
+               Default added (so using `tbp') on input line 120.
 
 
-Overfull \hbox (11.6362pt too wide) in paragraph at lines 132--147
+Overfull \hbox (11.6362pt too wide) in paragraph at lines 121--136
 [][] 
  []
 
 <graph.png, id=39, 446.8695pt x 293.29575pt>
 File: graph.png Graphic file (type png)
 <use graph.png>
-Package pdftex.def Info: graph.png  used on input line 151.
+Package pdftex.def Info: graph.png  used on input line 141.
 (pdftex.def)             Requested size: 195.0pt x 127.98538pt.
 <graph2.png, id=40, 466.74374pt x 320.397pt>
 File: graph2.png Graphic file (type png)
 <use graph2.png>
-Package pdftex.def Info: graph2.png  used on input line 158.
+Package pdftex.def Info: graph2.png  used on input line 148.
 (pdftex.def)             Requested size: 195.0pt x 133.85693pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--151
+
+ []
+
 [7] [8] [9 <./graph.png>]
 <graph3.png, id=52, 464.937pt x 307.74976pt>
 File: graph3.png Graphic file (type png)
 <use graph3.png>
-Package pdftex.def Info: graph3.png  used on input line 171.
+Package pdftex.def Info: graph3.png  used on input line 161.
 (pdftex.def)             Requested size: 195.0pt x 129.07556pt.
  [10 <./graph2.png> <./graph3.png>]
 
-c:/Users/steph/Desktop/Hackerman/SchoolFiles/physics/Lab/lab.tex:181: Package inputenc Error: Unicode character ～ (U+FF5E)
+c:/Users/steph/Desktop/Hackerman/SchoolFiles/physics/Lab/lab.tex:171: Package inputenc Error: Unicode character ～ (U+FF5E)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.181 ...lues for longer distances such as 0.8 ～
+l.171 ...lues for longer distances such as 0.8 ～
                                                   1.0 meters were greater th...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -275,9 +308,9 @@ Here is how much of TeX's memory you used:
  20745 multiletter control sequences out of 15000+600000
  408360 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,66p,1265b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,12n,66p,1861b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on lab.pdf (12 pages, 1800773 bytes).
+Output written on lab.pdf (12 pages, 1800947 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream

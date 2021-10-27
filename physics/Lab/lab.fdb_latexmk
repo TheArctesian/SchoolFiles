@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1635231694 "c:/Users/steph/Desktop/Hackerman/SchoolFiles/physics/Lab/lab.tex" "lab.pdf" "lab" 1635231694
+["pdflatex"] 1635243373 "c:/Users/steph/Desktop/Hackerman/SchoolFiles/physics/Lab/lab.tex" "lab.pdf" "lab" 1635243373
   "Img.png" 1635202917 475323 70c876dbe559133809d34d8e2a640f12 ""
-  "c:/Users/steph/Desktop/Hackerman/SchoolFiles/physics/Lab/lab.tex" 1635231691 20872 c7e8af23cbe03954710907471e00bec8 ""
+  "c:/Users/steph/Desktop/Hackerman/SchoolFiles/physics/Lab/lab.tex" 1635243370 21131 0e56ba461fc7416ccc5559674a0ef400 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1634002502 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1634003019 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1634002812 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -56,13 +56,13 @@
   "graph.png" 1635207764 70423 6e3ed0668090bdb70d81520fa52751ab ""
   "graph2.png" 1635209290 84647 85fda0583392370cd6c07f360366ad9d ""
   "graph3.png" 1635209828 76572 d7f05b612c322c19956e4a7b4b113f3a ""
-  "lab.aux" 1635231694 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "lab.tex" 1635231691 20872 c7e8af23cbe03954710907471e00bec8 ""
+  "lab.aux" 1635243373 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "lab.tex" 1635243370 21131 0e56ba461fc7416ccc5559674a0ef400 ""
   "lab.toc" 0 -1 0 "pdflatex"
   "setup.png" 1635204847 224718 80ecb56c4807eba53c8b2b116208db8d ""
   "working.png" 1635205228 48290 1450705c11d2bc33adbfd75b9ca5576d ""
   (generated)
-  "lab.pdf"
-  "lab.toc"
-  "lab.aux"
   "lab.log"
+  "lab.pdf"
+  "lab.aux"
+  "lab.toc"
