@@ -1,13 +1,12 @@
-public class Drink
-{
+public class Espresso {
     double cost;
     String description;
     String name;
 
     public Drink()
     {
-        cost = 1.0;
-        description = "pancake maybe";
+        cost = 2.0;
+        description = "STRONG black coffee made by forcing steam through ground coffee bean";
     }
 
     public Drink(String name)
@@ -35,4 +34,13 @@ public class Drink
     public String getName() {
         return name;
     }
+
+    public void setCost(double cost) {
+        this.cost = cost;
+    }
+
+    public String getCost() {
+        return cost;
+    }
 }
+

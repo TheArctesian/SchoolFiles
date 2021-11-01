@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5686b3fd-2746-4fb0-9408-aba636cf23d8" name="Changes" comment="">
+    <list default="true" id="cd45c19b-c400-4e04-bb7d-3238b2568071" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../2.lab-eat-1/Drink.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../2.lab-eat-1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2.lab-eat-1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2.lab-eat-1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2.lab-eat-1/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.lab_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2.lab_1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,15 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="1yq2hQnYOO8n5cegYHirqhTgOfr" />
+  <component name="ProjectId" id="1zqCYGIuHp14r7IKaZ4tgpWiXo4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,30 +27,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="2.lab_1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2.lab-eat-1" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5686b3fd-2746-4fb0-9408-aba636cf23d8" name="Changes" comment="" />
-      <created>1632964915253</created>
+      <changelist id="cd45c19b-c400-4e04-bb7d-3238b2568071" name="Changes" comment="" />
+      <created>1634866279525</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1632964915253</updated>
+      <updated>1634866279525</updated>
     </task>
     <servers />
   </component>

@@ -66,18 +66,18 @@ class Main {
                 System.out.println(CLog.BLUE + s.getSnack() + CLog.YELLOW);
                 System.out.println("What else do you want fatso");
             }
-            if (input.equals("drink")) {
-                Drink Temp = new Drink(1000);
-                System.out.println(CLog.CYAN + "Given you drink name" + CLog.YELLOW);
+            if (input.equals("Latte")) {
+                Latte Temp = new Latte(1000);
+                System.out.println(CLog.CYAN + "Given you Latte name" + CLog.YELLOW);
                 String name = sc.next();
                 Temp.setName(name);
                 s.addDrinks(Temp);
                 orders.put(s, Temp.getName());
-                s.setStudentOrders("Drink", Temp.getName());
+                s.setStudentOrders("Latte", Temp.getName());
                 System.out.println(CLog.GREEN + "Your order has been put through!" + CLog.YELLOW);
                 System.out.println("What else do you want fatso");
             }
-            if (input.equals("show-drink")) {
+            if (input.equals("show-Latte")) {
                 System.out.println(CLog.GREEN + "you have drinks with the name of" + CLog.YELLOW);
                 System.out.println(CLog.BLUE + s.getDrinks() + CLog.YELLOW);
             }
@@ -91,7 +91,7 @@ class Main {
                 System.out.println("snak");
                 System.out.println("brekkie");
                 System.out.println("lunch");
-                System.out.println("drink");
+                System.out.println("Latte");
                 System.out.println(CLog.BLUE + "you can also show all the orders as well for each by typing " + CLog.GREEN + "show-{order}");
                 System.out.println(CLog.YELLOW + "I head there is a secret command called 'show-imposter' but idk what that does");
             }
