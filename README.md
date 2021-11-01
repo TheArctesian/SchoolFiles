@@ -10,9 +10,9 @@ All of my school projects most of them just for QOL
 
 ## Notes
 # Cs contains
-- First 2 Labs 
+- Labs 
 - Pset-1 but only the tests if you want my full code for it its in [this repo](https://github.com/TheArctesian/attempt2e)
-    
+- Pset-2 in go and svelte
 # Math contains 
 - Nothing lmao
 
