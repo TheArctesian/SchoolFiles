@@ -32,6 +32,6 @@ func main() {
     http.HandleFunc("/headers", headers)
 	http.HandleFunc("/penis", penis)
 	http.HandleFunc("/createUser", createUser)
-	http.Handle("/", http.FileServer(http.Dir("./static")))
+	http.Handle("/", http.FileServer(http.Dir("./static/front-end/public")))
     http.ListenAndServe(":8090", nil)
 }
