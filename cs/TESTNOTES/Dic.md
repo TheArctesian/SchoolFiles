@@ -23,3 +23,23 @@
     Turtle noob = new Turtle(6,9,"wanwa);
     ```
 
+
+# Networks 
+
+- Server 
+  - A computer system 
+  - Live on one port per host
+- Client 
+  - A system that displays items from the server
+- LAN 
+  - Local Area Network
+    - A set of clients in one physical area
+    - Used to just be wired
+    - But now wireless through wifi
+- Router
+  - A device that receives message and pass it on to another router
+  - Now have a switch to send to LAN 
+- ISP 
+  - Internet service provider
+- VPN 
+  - Connect to another LAN and send that message through the VPN's LAN

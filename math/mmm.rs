@@ -7,7 +7,7 @@ fn main() {
     println!("Running");
     // create array of arrays 
     let mut outputs = [[0; 3]; 100];
-    let k = io::stdin().read_line(&mut line).unwrap();
+    let k = 100;
     let i = 0;
     let place = 0;
     let mut array : [i32; 3] = [x, 0, 0];
