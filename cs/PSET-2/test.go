@@ -1,11 +1,10 @@
 package main
 
 import (
-    "fmt"
-    "net/http"
-    "log"
 	"database/sql"
-	_ "github.com/go-sql-driver/mysql"
+	"fmt"
+	"log"
+	"net/http"
 )
 
 func test(w http.ResponseWriter, req *http.Request) {
