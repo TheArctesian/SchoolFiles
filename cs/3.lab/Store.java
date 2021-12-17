@@ -3,17 +3,8 @@ import java.util.ArrayList;
 public class Store
 {
     ArrayList <CISitem> lagosItem = new ArrayList<CISitem>();
-    /*
-     * TODO 2: Create an ArrayList of CISItem that will hold all of the
-     *  items in this store. Call this ArrayList "lagosItems"
-     */
-
-    /*
-     * TODO 3: create a method addBook, that takes in a Book as an argument
-     *  and adds it to the arrayList lagosItems.
-     */
-    public void addBook(Book book){
-        lagosItem.put(book);
+    public ArrayList<CISitem> addBook(ArrayList<CISItem> ar, Book book){
+        ar.put(book);
     }
     /*
      * TODO 4: Create a test for addBook. The test is called addBookTest.
@@ -22,7 +13,13 @@ public class Store
      *  2. Add the book with .addBook() Your program should not crash when you do this
      *  3. You can use assertTrue(true) at the end of the method
      */
+    public static void main(String[] args) {
+        Store newStore = new Store();
 
+        // Book testBook = new Book("Brave new World", "London", 69, "Dystopian Future", 696969, "20/4/20", "Huxley", "idk what is BN is", "First Edition", "BNW");
+        Book testBook = new Book();
+        addBook(testBook);
+    }
     /*
      * TODO 5: Create a method addPhone which takes in a Phone as an argument
      *  and adds it to the arrayList lagosItems.
@@ -45,12 +42,18 @@ public class Store
      *  changes the location of all Phones in the Store
      */
     public void updatePhonesLocation(String location){
-        for(CISitem: lagosItem)
+        for(CISitem item: lagosItem){
+            item.setLocation(location);
+        }
     }
     /*
      * TODO 8: create a method called getAllPhones() that returns an arrayList with
      *  all the phones in the store.
      */
+
+    public arrayList GetAllPhones(){
+        
+    }
 
     /*
      * TODO 9: Create a test for updatePhonesLocation() and getAllPhones()
