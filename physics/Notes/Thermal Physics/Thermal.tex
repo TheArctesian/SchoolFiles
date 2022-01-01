@@ -1,21 +1,24 @@
 \documentclass{article}
+\usepackage{amsmath}
 \usepackage[a4paper, total={6in, 10in}]{geometry}
 \usepackage{hyperref}
 \usepackage{amsmath}
 \usepackage{siunitx}
-\usepackage{mhchem}
+\usepackage[version=4]{mhchem}
+\usepackage{amssymb}
+\usepackage{inputenc}
+
 \newcommand\hr{\par\vspace{-.5\ht\strutbox}\noindent\hrulefill\par}
 \newcommand\br{\vspace{0.5cm}}
 \begin{document}
 \Huge \raggedright Thermal Physics \\ \vspace{1cm}
-\begin{large}
     \hr
     \LARGE \center Atoms \\
     \br
     
     \raggedright
     \large Atoms consist of electrons and protons. The electrons are negatively charged and the protons are positively charged. The size of one atom is around 0.1nm or \num{0.1e-9} meters known as one Ångström. \\
-    \large A neutral atom has an equal number of protons and electrons, referred to as its atomic number, When an atom loses or gains an electron itt becomes an ion. When noting isotopes we use \ce{^{A}_{Z}X+} where Z in the proton number, A is the nucleon number and X is the chemical symbol. \\ 
+    \large A neutral atom has an equal number of protons and electrons, referred to as its atomic number, When an atom loses or gains an electron it becomes an ion. When noting isotopes we use \ce{^{A}_{Z}X+} where Z in the proton number, A is the nucleon number and X is the chemical symbol. \\ 
     \large The number of neutrons can be found with \{N = A - Z\}. \\ 
     \large as Atoms are very small the amount of atoms can be defined with a mole or avogadro's constant \num{6.0221415e23} atoms per mole. \\
     \large atoms mass can be represented with the atomic mass unit \num{1.6605402e-27} kg. \\
@@ -26,10 +29,15 @@
 
     \hr
     \LARGE \center Laws \\
-    \br
+    \begin{large}
+    \[ \frac{pV}{t} \equiv c\] where p is the pressure, V is the volume and t is the temperature. 
+    \[\frac{p1V1}{t1} = \frac{p2V2}{t2}\]
     \raggedright
-    
-
+    Pressure Law p $\propto$ t where p is the pressure in pascal and t is the temperature in kelvin. \\
+    Boyles Law p $\propto$ $\frac{1}{V}$ where p is the pressure in pascal and V is the volume in liters. \\
+    Charles Law v $\propto$ t where v is the velocity in m/s and t is the temperature in kelvin. \\
+    Avogadro Law n $\propto$ v where n is the number of atoms in a mole and v is the velocity in m/s. R is the gas constant $\equiv$ 8.31 $Jk^{-1} mol^{-1}$ so \[\frac{pV}{nT} = R \equiv 8.31\] $\therefore pV=nRT$ 
+    \end{large}
 
 
     \hr
@@ -46,6 +54,5 @@
 
     \hr
 
-\end{large}
 
 \end{document}
