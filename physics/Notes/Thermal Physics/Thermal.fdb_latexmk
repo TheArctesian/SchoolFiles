@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1641010599 "/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.tex" "/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.pdf" "Thermal" 1641010600
-  "/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.aux" 1641010600 686 e6bf9f11827e1eae1d85e75b99e0a183 ""
-  "/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.tex" 1641010599 1375 51ce1e30857fc070548d28153aed48e3 ""
+["pdflatex"] 1641030776 "/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.tex" "/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.pdf" "Thermal" 1641030779
+  "/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.aux" 1641030779 686 e6bf9f11827e1eae1d85e75b99e0a183 ""
+  "/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.tex" 1641030776 1628 cfcff1f2a60c87c245f9aa23aad8b316 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -95,13 +95,13 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1640786744 2724744 599b445d482877e41dc5f58293aeea14 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "Thermal.aux" 1641010600 686 e6bf9f11827e1eae1d85e75b99e0a183 "pdflatex"
-  "Thermal.out" 1641010600 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Thermal.tex" 1641010599 1375 51ce1e30857fc070548d28153aed48e3 ""
+  "Thermal.aux" 1641030779 686 e6bf9f11827e1eae1d85e75b99e0a183 "pdflatex"
+  "Thermal.out" 1641030778 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Thermal.tex" 1641030776 1628 cfcff1f2a60c87c245f9aa23aad8b316 ""
   (generated)
+  "/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.log"
   "Thermal.pdf"
+  "/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.pdf"
+  "Thermal.log"
   "Thermal.aux"
   "Thermal.out"
-  "/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.log"
-  "Thermal.log"
-  "/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.pdf"
