@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.29)  8 JAN 2022 14:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.29)  10 JAN 2022 11:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -390,6 +390,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 13.
 LaTeX Info: Redefining \pageref on input line 13.
 LaTeX Info: Redefining \nameref on input line 13.
+ (/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.out) (/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.out)
 \@outlinefile=\write3
 \openout3 = `Thermal.out'.
 
@@ -434,77 +435,22 @@ File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
-
-/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.tex:47: Missing $ inserted.
-<inserted text> 
-                $
-l.47     Wher converting 10^
-                            3 cm to M must mulitply by 10^-6 to get the corr...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.tex:47: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 ...tply by 10^-6 to get the correct value. \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.tex:47: Missing $ inserted.
-<inserted text> 
-                $
-l.47 ...tply by 10^-6 to get the correct value. \\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.tex:47: Missing } inserted.
-<inserted text> 
-                }
-l.47 ...tply by 10^-6 to get the correct value. \\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.tex:47: Too many }'s.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.47 ...tply by 10^-6 to get the correct value. \\
-                                                  
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-[1
+ [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.aux)
-
-Package rerunfilecheck Warning: File `Thermal.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Thermal.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `Thermal.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12669 strings out of 478994
- 225499 string characters out of 5858183
- 530092 words of memory out of 5000000
- 29989 multiletter control sequences out of 15000+600000
- 414915 words of font info for 74 fonts, out of 8000000 for 9000
+ 12665 strings out of 478994
+ 225705 string characters out of 5858183
+ 530184 words of memory out of 5000000
+ 29982 multiletter control sequences out of 15000+600000
+ 413193 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,16n,75p,431b,728s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,16n,75p,431b,727s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.pdf" (2 pages, 95300 bytes).
+Output written on "/Users/stephen/Desktop/school/SchoolFiles/physics/Notes/Thermal Physics/Thermal.pdf" (2 pages, 91126 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
