@@ -36,9 +36,9 @@ public class Store
      *  4. You can use assertTrue(true) at the end of the method
      */
 
-    Store newStore = new Store();
-    Book newBook = new Book();
-    Phone newPhone = new Phone();
+    Store nStore = new Store();
+    Book nBook = new Book();
+    Phone nPhone = new Phone();
     newStore.addBook(newBook);
     newStore.addPhone(newPhone);
 
