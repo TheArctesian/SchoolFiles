@@ -1,19 +1,146 @@
-cog = ["Multi-Store Model", "Working Memory Model", "Schema", "Alter et Al()", "Loftus & Pickrell", "Loftus & Palmer", "Reconstructive Memory", "Cognitive bias", "Tversky & Kahneman, Strack and Mussweiller"]
+cog = ["Multi-Store Model",
+       "Working Memory Model",
+       "Schema",
+       "Alter et Al()",
+       "Loftus & Pickrell",
+       "Loftus & Palmer",
+       "Reconstructive Memory",
+       "Cognitive bias",
+       "Tversky & Kahneman",
+       "Strack and Mussweiller"]
 
-abnorm = ["Genetics", "Kendler", "Vulnerability factors", "Protective factors", "Aaron Beck", "Alloy", "Joiner", "Brown & Harris", "prevalence", "emic", "etic"]
+abnorm = ["Genetics",
+          "Kendler",
+          "Vulnerability factors",
+          "Protective factors",
+          "Aaron Beck",
+          "Alloy",
+          "Joiner",
+          "Brown & Harris",
+          "prevalence",
+          "emic",
+          "etic"]
 
-socul = ["Social identity theory", "Social cognitive theory", "Enculturation", "Stereotypes", "Cultural dimensions", "Acculturation", "Bandura", "Tajfel", "Hamilton & Gifford"]
+bio = ['Localization',
+       'Neuroplasticity',
+       'Neurotransmitter',
+       'Agonist',
+       'Antagonist',
+       'Hormone',
+       'Pheromone',
+       'Genetics',
+       'Adrenaline',
+       'Acetylcholine',
+       'Eugene Pauly',
+       'HM',
+       'Maguirem',
+       'Kendler',
+       'Wedekind',
+       'Cahill & McGaugh']
 
-bio = ['Localization', 'Neuroplasticity', 'Neurotransmitter', 'Agonist', 'Antagonist', 'Hormone', 'Pheromone', 'Genetics', 'Adrenaline', 'Acetylcholine', 'Eugene Pauly', 'HM', 'Maguirem', 'Kendler', 'Wedekind', 'Cahill & McGaugh']
 
-EMT = ["Protection from undue harm", "consent", "debrief", "confidentiality", "anonymity", "natural experiment", "quasi experiment", "survey", "meta-analysis", "questionnaire", "semi-structured interview", "unstructured interview", "structured interview"]
+socul = ["Social identity theory",
+         "Social cognitive theory",
+         "Enculturation",
+         "Stereotypes",
+         "Cultural dimensions",
+         "Acculturation",
+         "Bandura",
+         "Tajfel",
+         "Hamilton & Gifford"]
 
-ERQ = ['Explain one research method used to study the brain in relation to behaviour.',	
-       'Explain one ethical consideration relevant to one study of the brain in relation to behaviour.',
-       'Explain one technique used to study the brain in relation to behavior.',
-       'Explain localization of function using one study.',
-       'Explain neuroplasticity using one study.',
-       'Explain the effect of one neurotransmitter on one behaviour.',
+EMT = ["Protection from undue harm",
+       "consent",
+       "debrief",
+       "confidentiality",
+       "anonymity",
+       "natural experiment",
+       "quasi experiment",
+       "survey",
+       "meta-analysis",
+       "questionnaire",
+       "semi-structured interview",
+       "unstructured interview",
+       "structured interview"]
+
+BioSAQ = ['Explain one research method used to study the brain in relation to behaviour.',	
+        'Explain one ethical consideration relevant to one study of the brain in relation to behaviour.',
+        'Explain one technique used to study the brain in relation to behavior.',
+        'Explain localization of function using one study.',
+        'Explain neuroplasticity using one study.',
+        'Explain the effect of one neurotransmitter on one behaviour.',
         'Explain one research method used to study a hormone in relation to behaviour.',
         'Explain one ethical consideration relevant to one study of a hormone in relation to behaviour.',
+        'Explain the effect of one hormone on one behaviour.',
+        'Explain the possible effect of pheromones on one behaviour.',
+        'Explain one research method used to study the role of genetics in behaviour.',
+        'Explain one ethical consideration relevant to one study of the role of genetics in behaviour.',
+        'Explain the role of genes in one behaviour.',
+        'Explain how Twin or kinship studies help us understand the role of genetic similarity in one behavior.',
+        'Explain one evolutionary explanation for one behavior.'
        ]
+
+BioERQ = [
+"Discuss/evaluate/contrast research methods used to study the brain in relation to behaviour.",
+"Discuss ethical considerations relevant to the study of the brain in relation to behaviour.",
+"Discuss techniques used to study the brain in relation to behavior.",
+"Discuss/evaluate the theory of localization of function, with reference to relevant research.",
+"Discuss neuroplasticity and related research.",
+"Discuss the effect of one or more neurotransmitters on behaviour.",
+"Discuss/evaluate/contrast research methods used to study hormones in relation to behaviour.",
+"Discuss ethical considerations relevant to the study of hormones in relation to behaviour.",
+"Discuss the effect of one or more hormones on behaviour.",
+"To what extent do pheromones affect human behaviour?",
+"Discuss/evaluate/contrast research methods used to study the role of genetics in behaviour.",
+"Discuss ethical considerations relevant to the study of the role of genetics in behaviour.",
+"Discuss the role of genes in one or more behaviours.",
+"To what extent does genetic inheritance/similarity influence human behaviour?",
+"Evaluate one evolutionary explanation for behaviour, using relevant research.",
+]
+
+CogERQ = [
+"Discuss/evaluate/contrast research methods used to study cognitive processing.",
+"Discuss ethical considerations relevant to the study of cognitive processing.",
+"Evaluate one model of memory.",
+"Contrast two models of memory.",
+"Evaluate Schema Theory.",
+"Evaluate one model of thinking and decision-making.",
+"Discuss/evaluate/contrast research methods used to study the reliability cognitive processes.",
+"Discuss ethical considerations relevant to the study of the reliability of cognitive processes.",
+"To what extent is memory reconstructive?",
+"Evaluate one or more explanations for biases in thinking and/or decision-making.",
+"Discuss/evaluate/contrast research methods used to study the role of emotion in cognition.",
+"Discuss ethical considerations relevant to the study of emotion and cognition.",
+"To what extent does emotion influence one or more cognitive processes? ",
+"Discuss the role of emotion in one or more cognitive processes.",
+        ] 
+
+SoculERQ = [
+	"Discuss/evaluate/contrast research methods used to study the individual and the group.",
+	"Discuss ethical considerations relevant to the study of the individual and the group.",
+	"Evaluate Social Identity Theory.",
+	"To what extent can Social Cognitive Theory explain individual behaviour?",
+	"Discuss the formation of stereotypes and/or the effect(s) of stereotypes on human behaviour.",
+	"Discuss/evaluate/contrast research methods used to study the role of culture in behaviour.",
+	"Discuss ethical considerations relevant to the study of the role of culture in behaviour.",
+	"To what extent does culture influence behaviour and/or cognition?",
+	"Discuss the influence of one or more cultural dimensions on behaviour.",
+	"Discuss/evaluate research on Enculturation.",
+	"Discuss/evaluate research on Acculturation.",
+]
+AbnormERQ = ["Discuss a biological approach to explaining the etiology of one disorder.",
+"Discuss a cognitive approach to explaining the etiology of one disorder.",
+"Discuss a sociocultural approach to explaining the etiology of one disorder.",
+"Discuss ethical considerations in the study the etiology of disorders.",
+"Discuss approaches to research in the study the etiology of disorders.",
+"Discuss one etiology of one disorder.",
+"Discuss prevalence rates of disorders.",
+"Discuss one biological approach to the treatment of disorders.",
+"Discuss one cognitive approach to the treatment of disorders.",
+"Discuss ethical considerations in the treatment of disorders.",
+"Discuss approaches to research in the study of the treatment of disorders."
+]
+
+
+for i in BioERQ:
+    print(i)
