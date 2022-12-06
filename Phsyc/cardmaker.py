@@ -1,13 +1,37 @@
+
 cog = ["Multi-Store Model",
-       "Working Memory Model",
-       "Schema",
-       "Alter et Al()",
-       "Loftus & Pickrell",
-       "Loftus & Palmer",
-       "Reconstructive Memory",
-       "Cognitive bias",
-       "Tversky & Kahneman",
-       "Strack and Mussweiller"]
+        "Working Memory Model",
+        "Schema",
+        "Dual Process Model of Thinking and Decision Making",
+        "Englich & Mussweller (2001)"
+        "Alter et Al(2007)",
+        "Loftus & Pickrell (1974)",
+        "Yuillie & Cutshall (1986)",
+        "Loftus & Palmer",
+        "Reconstructive Memory",
+        "Cognitive bias",
+        "Tversky & Kahneman (1974)",
+        "Cahill & McGuagh (1995)",
+        "Bartlett (1932)",
+        "HM"
+        "Strack and Mussweiller",
+        "Confirmation Bias",
+        "Cognitive Dissonance",
+        "Anchoring Bias",
+        "Just World Hypothesis",
+        "Optimism Bias",
+        "Fundemental Attribution",
+        "Framing Effect",
+        "Self-Serving Bias",
+        "Dunning-Kruger Effect",
+        "Barnum Effect",
+        "Halo Effect",
+        "Sunk cost fallacy",
+        "Illusory correlations",
+        "Availability Heuristic",
+        "In-group bias",
+        "Bystander Effect"
+       ]
 
 abnorm = ["Genetics",
           "Kendler",
@@ -19,7 +43,9 @@ abnorm = ["Genetics",
           "Brown & Harris",
           "prevalence",
           "emic",
-          "etic"]
+          "etic",
+          "MDD",
+          ]
 
 bio = ['Localization',
        'Neuroplasticity',
@@ -41,12 +67,21 @@ bio = ['Localization',
 
 socul = ["Social identity theory",
          "Social cognitive theory",
+         "Illusory Correlation",
+         "Steele & Aronson (1995)"
+         "Levels of Culture",
+         "Cultural Norms",
+         "Enculturation",
+         "Direct Model SCT",
+         "Indirect Model SCT",
+         "Vicarious Reinforcment SCT",
          "Enculturation",
          "Stereotypes",
          "Cultural dimensions",
          "Acculturation",
          "Bandura",
          "Tajfel",
+         "Festmger et al (1956)",
          "Hamilton & Gifford"]
 
 EMT = ["Protection from undue harm",
@@ -62,23 +97,6 @@ EMT = ["Protection from undue harm",
        "semi-structured interview",
        "unstructured interview",
        "structured interview"]
-
-BioSAQ = ['Explain one research method used to study the brain in relation to behaviour.',	
-        'Explain one ethical consideration relevant to one study of the brain in relation to behaviour.',
-        'Explain one technique used to study the brain in relation to behavior.',
-        'Explain localization of function using one study.',
-        'Explain neuroplasticity using one study.',
-        'Explain the effect of one neurotransmitter on one behaviour.',
-        'Explain one research method used to study a hormone in relation to behaviour.',
-        'Explain one ethical consideration relevant to one study of a hormone in relation to behaviour.',
-        'Explain the effect of one hormone on one behaviour.',
-        'Explain the possible effect of pheromones on one behaviour.',
-        'Explain one research method used to study the role of genetics in behaviour.',
-        'Explain one ethical consideration relevant to one study of the role of genetics in behaviour.',
-        'Explain the role of genes in one behaviour.',
-        'Explain how Twin or kinship studies help us understand the role of genetic similarity in one behavior.',
-        'Explain one evolutionary explanation for one behavior.'
-       ]
 
 BioERQ = [
 "Discuss/evaluate/contrast research methods used to study the brain in relation to behaviour.",
@@ -116,17 +134,17 @@ CogERQ = [
         ] 
 
 SoculERQ = [
-	"Discuss/evaluate/contrast research methods used to study the individual and the group.",
-	"Discuss ethical considerations relevant to the study of the individual and the group.",
-	"Evaluate Social Identity Theory.",
-	"To what extent can Social Cognitive Theory explain individual behaviour?",
-	"Discuss the formation of stereotypes and/or the effect(s) of stereotypes on human behaviour.",
-	"Discuss/evaluate/contrast research methods used to study the role of culture in behaviour.",
-	"Discuss ethical considerations relevant to the study of the role of culture in behaviour.",
-	"To what extent does culture influence behaviour and/or cognition?",
-	"Discuss the influence of one or more cultural dimensions on behaviour.",
-	"Discuss/evaluate research on Enculturation.",
-	"Discuss/evaluate research on Acculturation.",
+"Discuss/evaluate/contrast research methods used to study the individual and the group.",
+"Discuss ethical considerations relevant to the study of the individual and the group.",
+"Evaluate Social Identity Theory.",
+"To what extent can Social Cognitive Theory explain individual behaviour?",
+"Discuss the formation of stereotypes and/or the effect(s) of stereotypes on human behaviour.",
+"Discuss/evaluate/contrast research methods used to study the role of culture in behaviour.",
+"Discuss ethical considerations relevant to the study of the role of culture in behaviour.",
+"To what extent does culture influence behaviour and/or cognition?",
+"Discuss the influence of one or more cultural dimensions on behaviour.",
+"Discuss/evaluate research on Enculturation.",
+"Discuss/evaluate research on Acculturation.",
 ]
 AbnormERQ = ["Discuss a biological approach to explaining the etiology of one disorder.",
 "Discuss a cognitive approach to explaining the etiology of one disorder.",
@@ -142,5 +160,9 @@ AbnormERQ = ["Discuss a biological approach to explaining the etiology of one di
 ]
 
 
-for i in BioERQ:
-    print(i)
+print("Cog length: ", len(cog))
+print("Abnormal length: ", len(abnorm))
+print("Bio length: ", len(bio))
+print("Socul Length: ", len(socul))
+print("EMT Length: ", len(EMT))
+
