@@ -199,9 +199,10 @@ class Card:
 
 cards = []
 
-def initCard():
-      
-    c = Card()     
 
+def initCard():
+    c = Card()     
 def concatList():
     for  
+
+# make enough arrays for cards
