@@ -1,4 +1,7 @@
 import json
+import os
+import random
+
 cog = ["Multi-Store Model",
         "Working Memory Model",
         "Schema",
@@ -11,7 +14,7 @@ cog = ["Multi-Store Model",
         "Reconstructive Memory",
         "Cognitive bias",
         "Tversky & Kahneman (1974)",
-        "Cahill & McGuagh (1995)",
+        "Cahill & McGaugh (1995)",
         "Bartlett (1932)",
         "HM"
         "Strack and Mussweiller",
@@ -32,6 +35,26 @@ cog = ["Multi-Store Model",
         "In-group bias",
         "Bystander Effect"
        ]
+
+socul = ["Social identity theory",
+         "Social cognitive theory",
+         "Illusory Correlation",
+         "Steele & Aronson (1995)"
+         "Levels of Culture",
+         "Cultural Norms",
+         "Enculturation",
+         "Direct Model SCT",
+         "Indirect Model SCT",
+         "Vicarious Reinforcment SCT",
+         "Enculturation",
+         "Stereotypes",
+         "Cultural dimensions",
+         "Acculturation",
+         "Bandura",
+         "Tajfel",
+         "Festmger et al (1956)",
+         "Hamilton & Gifford"
+         ]
 
 abnorm = ["Genetics",
           "Kendler",
@@ -76,26 +99,6 @@ bio = ['Localization of Function',
        'Wedekind',
        'Cahill & McGaugh']
 
-
-socul = ["Social identity theory",
-         "Social cognitive theory",
-         "Illusory Correlation",
-         "Steele & Aronson (1995)"
-         "Levels of Culture",
-         "Cultural Norms",
-         "Enculturation",
-         "Direct Model SCT",
-         "Indirect Model SCT",
-         "Vicarious Reinforcment SCT",
-         "Enculturation",
-         "Stereotypes",
-         "Cultural dimensions",
-         "Acculturation",
-         "Bandura",
-         "Tajfel",
-         "Festmger et al (1956)",
-         "Hamilton & Gifford"
-         ]
 
 EMT = ["Protection from undue harm",
        "consent",
@@ -172,13 +175,18 @@ AbnormERQ = ["Discuss a biological approach to explaining the etiology of one di
 "Discuss approaches to research in the study of the treatment of disorders."
 ]
 
+ERQ = BioERQ + CogERQ + SoculERQ + AbnormERQ
 
 print("Cog length: ", len(cog))
 print("Abnormal length: ", len(abnorm))
 print("Bio length: ", len(bio))
 print("Socul Length: ", len(socul))
 print("EMT Length: ", len(EMT))
-
+print("BIO ERQ Length: ", len(BioERQ))
+print("Cog ERQ Length: ", len(CogERQ))
+print("Socul ERQ Length: ", len(SoculERQ))
+print("Abrom ERQ Length: ", len(AbnormERQ))
+print("Length of ERQ : ", len(BioERQ)+len(AbnormERQ)+len(CogERQ)+len(SoculERQ))
 class Card: 
     def __init__(self, Cog, Abnor, Socul, Bio, EMT, ERQ):
         self.Cog = Cog
@@ -196,13 +204,37 @@ class Card:
             "Ethics and Res Methods" : Self.EMT,
             "Random ERQ" : self.ERQ
         }
+    def __repr__(self):
+        return f"Cognative: {self.Cog} \nBiolgical: {self.Bio} \nSocioCultural: {self.Socul} \nAbnormal: {self.Abnor} \nEthics and Res Methods: {self.EMT} \nRandom ERQ: {self.ERQ}"
 
 cards = []
-
+def randomEl(listName):
+    element = random.choice(listName)
+    listName.remove(element)
+    return element
 
 def initCard():
-    c = Card()     
-def concatList():
-    for  
+    print(len(cog))
+    c = Card(
+        randomEl(cog),
+        randomEl(bio),
+        randomEl(socul),
+        randomEl(abnorm),
+        randomEl(EMT),
+        randomEl(ERQ),
+    )
+    print(len(cog))
+    print(c)
+
+def generate_output_folder() -> None:
+    """
+    Create the output folder if it does not already exist
+    """
+    if not os.path.isdir("generated"):
+        os.mkdir("generated")
+
+if __name__ == "__main__":
+    print("ERQ Length", len(ERQ))
+    initCard()
 
 # make enough arrays for cards
